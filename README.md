@@ -1,79 +1,105 @@
 # 🛡️ LinuxBot Forense
 
-> Inteligência Forense, Automação Defensiva e Monitoramento em Tempo Real
+> Inteligência Forense • Automação Defensiva • Monitoramento em Tempo Real • Edge Security
 
 ---
 
 ## 📖 Descrição do Projeto
 
-O **LinuxBot Forense** é uma plataforma de engenharia de segurança focada na análise comportamental de logs em tempo real para ambientes Linux de alta disponibilidade.
+O **LinuxBot Forense** é uma plataforma de engenharia de segurança focada em análise comportamental de logs em tempo real para ambientes Linux de alta disponibilidade.
 
-O sistema monitora serviços **Nginx** e **HAProxy**, identifica atividades suspeitas e executa bloqueios automáticos diretamente no kernel Linux utilizando **Nftables**.
+O sistema monitora serviços **Nginx** e **HAProxy**, identifica padrões de atividade suspeita e executa ações de mitigação automática diretamente no kernel Linux utilizando **nftables**.
 
-Além da mitigação automática, a plataforma integra o **Sentinela Panel**, responsável pelo monitoramento visual, auditoria operacional e inteligência defensiva centralizada.
+Além da resposta automatizada a incidentes, a plataforma integra o **Sentinela Panel**, responsável pela observabilidade, auditoria operacional e centralização da inteligência defensiva.
 
 ---
 
-# 🛰️ Sentinela Panel
+## 🛰️ Sentinela Panel
 
 O **Sentinela Panel** é o núcleo de monitoramento e observabilidade da plataforma LinuxBot Forense.
 
-O painel fornece:
+Ele fornece visibilidade completa da infraestrutura e do tráfego de segurança em tempo real.
+
+### Funcionalidades
 
 - 📊 Monitoramento de eventos em tempo real
-- 🚨 Alertas automáticos de ameaças
-- 🌐 Visualização de IPs maliciosos
-- 📈 Estatísticas de ataques e bloqueios
-- 🔥 Status operacional do Firewall
-- 🧠 Inteligência de reputação IP
-- 📂 Auditoria completa das ações executadas
-- ⚡ Dashboard de performance da infraestrutura
+- 🚨 Detecção e alertas automáticos de ameaças
+- 🌐 Visualização de IPs maliciosos e padrões de ataque
+- 📈 Estatísticas de tráfego, bloqueios e incidentes
+- 🔥 Status operacional do firewall (nftables)
+- 🧠 Análise de reputação de IPs
+- 📂 Auditoria completa de ações de segurança
+- ⚡ Métricas de performance da infraestrutura
 
 ---
 
 ## 🧠 Tecnologias Integradas
 
 ### 🚀 Redis
-Processamento de reputação IP e contagem de eventos em milissegundos para resposta imediata.
+Camada de processamento de alta velocidade para reputação de IPs e contagem de eventos em tempo real.
 
 ### 🗄️ MariaDB
-Persistência forense, blacklist permanente e armazenamento de trilhas de auditoria.
+Armazenamento persistente de dados forenses, blacklist e histórico de incidentes.
 
-### 🔥 Nftables
-Firewall executado diretamente no kernel Linux com alta performance e baixo overhead.
+### 🔥 nftables
+Firewall em nível de kernel Linux para filtragem de tráfego com alta performance e baixo overhead.
 
 ### 🛰️ Sentinela Panel
-Painel centralizado para monitoramento operacional, observabilidade e inteligência defensiva.
+Sistema centralizado de observabilidade e inteligência de segurança.
 
 ---
 
 ## 📂 Arquitetura Modular
 
-- **Motor de Decisão**
-  - Cálculo inteligente de reputação baseado em erros HTTP e comportamento suspeito.
+### 🧭 Motor de Decisão
+Responsável por calcular reputação e identificar comportamentos suspeitos com base em eventos HTTP.
 
-- **Persistência Híbrida**
-  - Integração entre memória volátil (Redis) e armazenamento SQL permanente.
+### 💾 Persistência Híbrida
+Integração entre dados em memória (Redis) e armazenamento persistente (MariaDB).
 
-- **Audit Log**
-  - Rastreabilidade total das ações defensivas executadas pela plataforma.
+### 📜 Audit Log
+Registro completo de ações executadas pela plataforma para rastreabilidade e análise forense.
 
-- **Threat Intelligence**
-  - Correlação de eventos para identificação avançada de ameaças.
+### 🧠 Threat Intelligence
+Correlação de eventos para identificação de padrões avançados de ataque.
 
-- **Sentinela Monitor**
-  - Dashboard de monitoramento em tempo real da infraestrutura protegida.
+### 📡 Sentinela Monitor
+Dashboard de observabilidade em tempo real da infraestrutura protegida.
 
 ---
 
-## ⚙️ Stack
+## ⚙️ Stack Tecnológica
 
-```bash
-Python
-Redis
-MariaDB
-Nftables
-Nginx
-HAProxy
-Linux
-Sentinela Panel
+- Python
+- Redis
+- MariaDB
+- nftables
+- Nginx
+- HAProxy
+- Linux
+- Sentinela Panel
+
+---
+
+## 🧠 Objetivo do Sistema
+
+- Detectar e mitigar ameaças em tempo real
+- Reduzir superfície de ataque na borda
+- Garantir alta disponibilidade e resiliência
+- Automatizar resposta a incidentes
+- Centralizar observabilidade de segurança
+
+---
+
+## 📜 Nota
+
+Este projeto representa uma **arquitetura de segurança e monitoramento em nível conceitual e operacional**, voltada para ambientes Linux de produção.
+
+---
+
+<div align="center">
+
+🛡️ Linux Security Engineering  
+DicCarlo SOC • Edge Defense • 2026
+
+</div>
