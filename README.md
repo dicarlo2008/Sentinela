@@ -70,6 +70,6 @@ MIT License
 
 <div align="center">
 
-DicCarlo SOC | Bare Metal Security Solutions © 2026
+DICCARLO © 2026
 
 </div>
