@@ -100,6 +100,6 @@ Este projeto representa uma **arquitetura de segurança e monitoramento em níve
 <div align="center">
 
 🛡️ Linux Security Engineering  
-DicCarlo SOC • Edge Defense • 2026
+DICCARLO• Edge Defense • 2026
 
 </div>
