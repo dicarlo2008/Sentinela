@@ -1,5 +1,5 @@
 # =================================================================
-# PROJECT: LinuxBot Forense - Security Automation Engine
+# PROJECT: Sentinela - Security Automation Engine
 # AUTHOR: Di Carlo (Infra & Security Engineer)
 # COPYRIGHT: (c) 2026 Di Carlo
 # DESCRIPTION: Conceptual L7 mitigation and system hardening module.
@@ -15,7 +15,7 @@ def main():
     """
 
     print("="*60)
-    print("🛡️  LINUXBOT FORENSE | AUTOMATION ENGINE")
+    print("🛡️  Sentinela | AUTOMATION ENGINE")
     print("👤 Engineer: Di Carlo")
     print("📡 Status: ACTIVE MONITORING")
     print("="*60)
