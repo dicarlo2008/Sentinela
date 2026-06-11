@@ -1,4 +1,4 @@
-# 🛡️ LinuxBot Forense
+# 🛡️ Sentinela
 
 > Inteligência Forense • Automação Defensiva • Monitoramento em Tempo Real • Edge Security
 
@@ -6,7 +6,7 @@
 
 ## 📖 Descrição do Projeto
 
-O **LinuxBot Forense** é uma plataforma de engenharia de segurança focada em análise comportamental de logs em tempo real para ambientes Linux de alta disponibilidade.
+O **Sentinela** é uma plataforma de engenharia de segurança focada em análise comportamental de logs em tempo real para ambientes Linux de alta disponibilidade.
 
 O sistema monitora serviços **Nginx** e **HAProxy**, identifica padrões de atividade suspeita e executa ações de mitigação automática diretamente no kernel Linux utilizando **nftables**.
 
