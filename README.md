@@ -16,7 +16,7 @@ Além da resposta automatizada a incidentes, a plataforma integra o **Sentinela 
 
 ## 🛰️ Sentinela Panel
 
-O **Sentinela Panel** é o núcleo de monitoramento e observabilidade da plataforma LinuxBot Forense.
+O **Sentinela Panel** é o núcleo de monitoramento e observabilidade da plataforma Sentinela Forense.
 
 Ele fornece visibilidade completa da infraestrutura e do tráfego de segurança em tempo real.
 
@@ -88,12 +88,6 @@ Dashboard de observabilidade em tempo real da infraestrutura protegida.
 - Garantir alta disponibilidade e resiliência
 - Automatizar resposta a incidentes
 - Centralizar observabilidade de segurança
-
----
-
-## 📜 Nota
-
-Este projeto representa uma **arquitetura de segurança e monitoramento em nível conceitual e operacional**, voltada para ambientes Linux de produção.
 
 ---
 
