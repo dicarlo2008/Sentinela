@@ -95,7 +95,7 @@ Dashboard de observabilidade em tempo real da infraestrutura protegida.
 
 <div align="center">
 
-    🛡️ DICCARLO TECH   
-  Sentinela Edge Defense  • 2026
+      🛡️ Sentinela Edge Defense  
+  Security Automation Engine  • 2026
 
 </div>
