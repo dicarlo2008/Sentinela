@@ -1,4 +1,4 @@
-# 🛡️ Sentinela
+# 🛡️ Sentinela Edge Defense 
 
 > Inteligência Forense • Automação Defensiva • Monitoramento em Tempo Real • Edge Security
 
@@ -95,7 +95,7 @@ Dashboard de observabilidade em tempo real da infraestrutura protegida.
 
 <div align="center">
 
-🛡️ Linux Security Engineering  
-DICCARLO• Edge Defense • 2026
+    🛡️ DICCARLO TECH   
+  Sentinela Edge Defense  • 2026
 
 </div>
