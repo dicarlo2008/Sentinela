@@ -1,5 +1,5 @@
 # =================================================================
-# PROJECT: Sentinela - Security Automation Engine
+# PROJECT: Sentinela Edge Defense - Security Automation Engine
 # AUTHOR: Di Carlo (Infra & Security Engineer)
 # COPYRIGHT: (c) 2026 Di Carlo
 # DESCRIPTION: Conceptual L7 mitigation and system hardening module.
@@ -7,7 +7,7 @@
 
 def main():
     """
-    LinuxBot Forense - Security Automation Engine
+    Sentinela Edge Defense - Security Automation Engine
 
     Status: Operational
     Mode: Monitoring / Simulation Layer
@@ -15,7 +15,7 @@ def main():
     """
 
     print("="*60)
-    print("🛡️  Sentinela | AUTOMATION ENGINE")
+    print("🛡️  Sentinela Edge Defense | AUTOMATION ENGINE")
     print("👤 Engineer: Di Carlo")
     print("📡 Status: ACTIVE MONITORING")
     print("="*60)
